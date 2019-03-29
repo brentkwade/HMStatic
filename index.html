@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Login</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="stylesheet" type="text/css" href="/style/fixed.css" />
+  <script src="main.js"></script>
+</head>
+
+<body data-spy="scroll" data-target="#navbarResponsive">
+
+  <!---Start Home Section-->
+  <div id="home">
+
+    <!---Navigation-->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="index.html">
+        <img src="/img/udlogo.png"> Heart Map
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About Us</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#objectives">Objectives</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#team">The Team</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/html/oauth.html">Login</a>
+          </li>
+
+        </ul>
+      </div>
+    </nav>
+
+    <!---Image Slider-->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="7000">
+
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+
+      <!---Start Carousel Inner-->
+      <div class="carousel-inner" role="listbox">
+
+        <!---Image 1-->
+        <div class="carousel-item active" style="background-image: url(img/udBanner.jpg);">
+          <div class="carousel-caption text-center">
+            <h1>Welcome to Heart Map</h1>
+            <h3>Capstone Project</h3>
+            <a class="btn btn-outline-light btn-lg" href="#services">Learn More</a>
+          </div>
+        </div>
+
+        <!--- Image 2-->
+        <div class="carousel-item" style="background-image: url(img/ECGCircuit.png);"></div>
+
+        <!--- Image 3-->
+        <div class="carousel-item" style="background-image: url(img/ekhshield.jpg);"></div>
+
+      </div>
+      <!---End Carousel Inner-->
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </a>
+
+    </div>
+    <!---End Image Slider-->
+
+  </div>
+  <!---End Home Section-->
+
+  <!---D150 Fueling Top Startup-->
+  <div id="about" class="offset">
+
+    <div class="col-12 narrow text-center ">
+      <h1>Heart Map: Our Mission</h1>
+      <div class="heading-underline"></div>
+      <p class="lead ">We are a group of students striving to help those who suffer from heart arrhythmias and other underlying medical conditions
+        pertaining to the heart.
+      </p>
+      <a class="btn btn-secondary btn-md " href="https://sites.google.com/a/udel.edu/heart-map/" target="_blank ">Our Progress</a>
+    </div>
+
+  </div>
+  <!---End About-->
+
+  <!---Start Services & Products Section-->
+  <div id="objectives" class="offset">
+    <div class="jumbotron container-fluid">
+      <div class="col-12 text-center">
+        <h1 class="heading">Objectives</h1>
+        <div class="heading-underline"></div>
+      </div>
+
+
+      <div class="expando">
+        <div id="oneE">
+          <div class="topTitle centerText">
+          </div>
+          <p style="margin-left: 10%; margin-right:10%;"> Our objective is to build software that can not only understand the types of heart arrhythmias that occur, but
+            to also help predict issues to come. We plan on also implementing EEG signal analysis to conclude any and all
+            correlations between brain waves and heart rates. We would ideally like to implement a live feed of the heart
+            rates for our users who need this feature.</p>
+        </div>
+
+        <div class="narrow text-center">
+          <div class="col-12">
+            <p class="lead">Want to learn more about our platform?</p>
+            <a class="btn btn-secondary btn-md" href="#contact">Contact Us</a>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+    <!---End Services & Products Section-->
+
+    <!---Start Team Section-->
+    <div id="team" class="offset">
+
+      <div class="col-12 text-center">
+        <h1 class="heading">Meet the Team</h3>
+          <div class="heading-underline"></div>
+      </div>
+
+      <div class="row padding">
+
+        <div class="col-lg-6 mx-auto">
+          <div class="card-deck mx-auto">
+
+            <div class="card" style="width:100%">
+              <img class="card-img-top" src="/img/AllieHeadshot.jpg"
+                alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Allison Shovel</h5>
+                <p class="card-text">Software Engineer for HeartMap.</p>
+              </div>
+            </div>
+
+            <div class="card" style="width:100%">
+              <img class="card-img-top" src="img/" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Brent Wade</h5>
+                <p class="card-text">Currently a Senior at the University of Delaware, where I study Computer Engineering. My focus has been on
+                  Software Engineering.</p>
+              </div>
+            </div>
+
+            <div class="card" style="width:100%">
+              <img class="card-img-top" src="/img/deionHeadshot.jpg"
+                alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Deion Cottingham</h5>
+                <p class="card-text">As a working Electrical Engineering student at the University of Delaware, my goal is to graduate with my
+                  Bachelors of Science Degree in Electrical Engineering and minor in Cybersecurity.</p>
+              </div>
+            </div>
+
+            <div class="card" style="width:100%">
+              <img class="card-img-top" src="/img/ToriHeadshot.jpg"
+                alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Victoria DeSpirito</h5>
+                <p class="card-text">Hardware Engineer for Heart Map.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+      <!--- End of row padding -->
+
+    </div>
+    <!---End Team Section-->
+
+    <!---Start Contact Section-->
+    <div id="contact" class="offset">
+
+      <footer>
+        <div class="row justify-content-center">
+
+          <div class="col-md-5 text-center">
+            <img src="/img/udlogo.png">
+
+            <strong>Contact Information</strong>
+            <p>email: bkwade@udel.edu</p>
+
+            <a href="https://www.linkedin.com/company/d150-fueling-llc/about/" target="_blank">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </div>
+
+        </div>
+        <!--- End of Row -->
+      </footer>
+
+    </div>
+    <!---End Contact Section-->
+
+    <!---Script Source Files-->
+    <script src="https://use.fontawesome.com/releases/v5.7.2/js/all.js "></script>
+    <!---End Source Files-->
+
+
+
+
+
+</body>
+
+</html>
+
+</html>
